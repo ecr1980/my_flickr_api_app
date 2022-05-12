@@ -6,6 +6,9 @@ ruby "3.0.3"
 # flickr api gem
 gem 'flickr', '~> 2.0', '>= 2.0.2'
 
+#figaro for keeping my keys safe
+gem 'figaro', '~> 1.2'
+
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.0.3"
 
